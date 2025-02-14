@@ -14,6 +14,7 @@ public class KoscheiTheDeathless {
     }
 
     @Autowired
+    //KoscheiTheDeathless связывается с Ocean1 через сеттер setOcean и аннотации @Autowired над ней.
     public void setOcean(Ocean1 ocean) {
         this.ocean = ocean;
     }
